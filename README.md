@@ -8,8 +8,8 @@ Grupa: 2.4
 ## Instrukcja uruchomienia
 
 ### 1. Uruchomienie klastra Minikube z 4 nodami
-kubectl get nodes -o wide
-minikube start --profile=lab8 --driver=docker --nodes=4 --cni=calico
+kubectl get nodes -o wide   
+minikube start --profile=lab8 --driver=docker --nodes=4 --cni=calico    
 kubectl get nodes -o wide
 
 ### 2. Nadanie etykiet węzłom roboczym A, B, C
